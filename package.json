@@ -5,7 +5,8 @@
   "repository": "git@github.com:oaknorthbank/javascript-pairing-exercise.git",
   "license": "MIT",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "csv-parse": "^5.3.8",
