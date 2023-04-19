@@ -21,6 +21,6 @@ describe("Consume invoices", () => {
   });
 
   it("should do nothing when there are no invoices", () => {
-    consume_invoices([]);
+    expect(consume_invoices([])).toBe("Hello World!");
   });
 });

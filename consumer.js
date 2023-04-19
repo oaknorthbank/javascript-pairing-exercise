@@ -1,3 +1,3 @@
 export const consume_invoices = (invoices) => {
-  console.log("hello");
+  return "Hello World!";
 };

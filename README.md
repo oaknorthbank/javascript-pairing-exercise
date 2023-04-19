@@ -1,5 +1,4 @@
-Pairing Exercise: Javascript
-========================
+# Pairing Exercise: Javascript
 
 This is a pairing exercise for prospective full-stack/back-end developers with a focus on Javascript.
 
@@ -17,20 +16,21 @@ The main idea is to start by writing a failing test with the expected behaviour 
 
 Process a list of invoices and produce the following statistics:
 
-* Total number of invoices per organisation
-* Number of unpaid invoices per organisation
-* Number of overdue invoices per organisation
-* Number of paid invoices per organisation per month
+- Total number of invoices per organisation
+- Number of unpaid invoices per organisation
+- Number of overdue invoices per organisation
+- Number of paid invoices per organisation per month
 
 ## Setup
 
-The exercise should not require the use of external dependencies except for `yarn` or `npm`.
+The exercise should not require the use of external dependencies except for `yarn` or `npm`, and at least `node` version 16.
 
 If using `yarn`:
-* `yarn install` to install the dependencies
-* `yarn test` to run the `jest` tests
-* `yarn format` to run `prettier`
+
+- `yarn install` to install the dependencies
+- `yarn test` to run the `jest` tests
+- `yarn format` to run `prettier`
 
 Alternatively, if `yarn` is not installed:
 
-* `npm install --global yarn`
+- `npm install --global yarn`
