@@ -916,30 +916,10 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csv-generate@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-4.2.4.tgz#42cbe6b4e32fe59531fc1b57f07b5ab509e101d3"
-  integrity sha512-PvEwuRksnW30I1DlZnVuCVMOiff7ZoUXOCMQJ1c0DPKXQkIC87hWvqJ4ztO70ceQMQER1hp/Lajo8KIy7at1PA==
-
 csv-parse@^5.3.8:
   version "5.3.8"
   resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-5.3.8.tgz#c9919fbc5670fddec09a4b40e25365a2d11956d1"
   integrity sha512-ird8lzMv9I64oqIVIHdaTbT7Yr55n2C/Nv6m1LxO7nddLEeI67468VQ9Ik+r6lwYbK9kTE1oSqAVcVKc/Uqx6g==
-
-csv-stringify@^6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-6.3.2.tgz#0d5105dcf6f5a6605262d1a008883120684db164"
-  integrity sha512-dD9gfbxNKa5v90NHiE2Qd6F9I52GtJjGTfowwzqiNDZD/+NPW3h19d2Nvv311a8QUW11rYRobco27nvVAnCrLw==
-
-csv@^6.2.10:
-  version "6.2.10"
-  resolved "https://registry.yarnpkg.com/csv/-/csv-6.2.10.tgz#5e94bac81c23d1a8eb30ab63cabbb68d2b1f34b7"
-  integrity sha512-aO1dkeMlzWHvtKOdiTeqt7G4SwF/JtJ2fYNOMtlrGiKERD+ASq+QZelGqpFCzHGvZSIhzDtwqRVEgPMkme2BQg==
-  dependencies:
-    csv-generate "^4.2.4"
-    csv-parse "^5.3.8"
-    csv-stringify "^6.3.2"
-    stream-transform "^3.2.4"
 
 debug@^4.1.0, debug@^4.1.1:
   version "4.3.4"
@@ -1845,6 +1825,11 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+prettier@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
+
 pretty-format@^29.5.0:
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.5.0.tgz#283134e74f70e2e3e7229336de0e4fce94ccde5a"
@@ -1966,11 +1951,6 @@ stack-utils@^2.0.3:
   integrity sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==
   dependencies:
     escape-string-regexp "^2.0.0"
-
-stream-transform@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/stream-transform/-/stream-transform-3.2.4.tgz#cc37b7950a43f97a89b6472745ec9ef9850c4948"
-  integrity sha512-YoZm/eoh6f/MH7uHkq+NK3fx3JkyXbck7FcTpJavwEUg0aMINqMPkDj5uNW0CoRy7c/2NSJm0HvoyFv6dVauPA==
 
 string-length@^4.0.1:
   version "4.0.2"
