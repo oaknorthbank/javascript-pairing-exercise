@@ -16,5 +16,9 @@
   "type": "module",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "@types/node": "^20.8.10"
   }
 }
