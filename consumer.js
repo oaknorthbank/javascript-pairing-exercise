@@ -1,3 +1,3 @@
-export const consume_invoices = (invoices) => {
+export const consumeInvoices = (invoices) => {
   return "Hello World!";
 };

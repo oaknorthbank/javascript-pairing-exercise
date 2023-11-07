@@ -1,6 +1,6 @@
 import fs from "fs";
 import { parse } from "csv-parse";
-import { consume_invoices } from "./consumer.js";
+import { consumeInvoices } from "./consumer.js";
 
 async function loadCsvFile(filePath) {
   const results = [];
@@ -21,6 +21,6 @@ describe("Consume invoices", () => {
   });
 
   it("should do nothing when there are no invoices", () => {
-    expect(consume_invoices([])).toBe("Hello World!");
+    expect(consumeInvoices([])).toBe("Hello World!");
   });
 });
