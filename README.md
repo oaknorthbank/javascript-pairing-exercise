@@ -23,9 +23,11 @@ Process a list of invoices and produce the following statistics:
 
 ## Setup
 
-The exercise should not require the use of external dependencies except for `yarn` or `npm`, and at least `node` version 16.
+The exercise should not require the use of any external dependencies except for `yarn` or `npm`, and at least `node` version 20.
 
-If using `yarn`:
+Run `nvm install && nvm use` to install and use the required node version.
+
+And then if using `yarn`:
 
 - `yarn install` to install the dependencies
 - `yarn test` to run the `jest` tests
