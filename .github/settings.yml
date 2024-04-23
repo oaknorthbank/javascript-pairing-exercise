@@ -1,0 +1,5 @@
+repository:
+  # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings.
+  name: javascript-pairing-exercise
+  description: null
+  topics: squad-core-finance, mission-pipes, product-pipes, environment-sandbox
