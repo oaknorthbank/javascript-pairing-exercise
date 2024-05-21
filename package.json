@@ -5,8 +5,7 @@
   "repository": "git@github.com:oaknorthbank/javascript-pairing-exercise.git",
   "license": "MIT",
   "scripts": {
-    "test": "cross-env node --experimental-vm-modules ./node_modules/.bin/jest",
-    "test-windows": "cross-env node --experimental-vm-modules ./node_modules/jest/.bin/jest.js",
+    "test": "cross-env node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "format": "prettier . --write"
   },
   "dependencies": {

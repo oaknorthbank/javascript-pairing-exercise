@@ -32,10 +32,6 @@ And then if using `yarn`:
 - `yarn format` to run `prettier`
 - `yarn test` to run the `jest` tests
 
-Note if you're using a computer running Windows you'll need to run:
-
-- `yarn test-windows`
-
 Alternatively, if `yarn` is not installed:
 
 - `npm install --global yarn`
